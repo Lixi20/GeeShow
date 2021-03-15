@@ -1,8 +1,9 @@
-.GWS{
+.GS{
     font-size: 45px;
     position:absolute;
 	right:1600px;
 }
+/* 第二个文本框*/
 .wirte{
      border:1px solid #ccc;
      width: 825px;
@@ -10,7 +11,7 @@
      height: none;
      position:absolute;
      right:10px;
-     top: 50px;
+     top: 272px;
 }
 /* 整体居中 */
 .wrap {
@@ -32,11 +33,40 @@
 /* 渲染文本框 */
 textarea {
     width: 815.5px;
-    height: 600px;
+    height: 580px;
     outline: none;
     resize: none;
     border: 1px solid #ccc;
     border-radius: 9px;
     padding: 5px;
     white-space: pre-wrap;
+}
+/*照片*/
+.picture{
+    background-image: url(相机.svg);
+    background-repeat: no-repeat;
+    background-size: 700px 2em;
+    background-color:#ebe6e6;
+    background-position: 10px 6em;
+    width: 700px;
+    height: 200px;      
+    outline: none;
+    margin:10px;
+}
+/*按钮*/
+.bu{
+    font-size: 24px;
+    margin:0 30px;
+    width: 100px; 
+    height: 30px;
+    border: none;
+    background: #00CC66;
+    color: white;
+    border-radius: 2px;
+    position: absolute;
+    right: 820px;
+    bottom: 5px;
+    transition: all ease 0.4s;
+    font-size: 16px;
+    outline:none;
 }

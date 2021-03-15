@@ -1,0 +1,36 @@
+#ma::-webkit-input-placeholder {
+    color: black;
+}
+.main{
+    width: 1500px;
+    height: 600px;
+    font-size: 20pt;
+    margin:0px;
+    resize: none;
+    outline: none;
+    float:right;
+    border:1px solid rgb(243, 237, 237)；
+}
+.GS{
+    color:rgb(10, 51, 236);
+    font-size: 45px;
+    margin-left: 10px;
+}
+.write{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    margin:80px;
+}
+.xia{
+    width: 396.5px;
+    size: 1;
+    margin: 0px;
+}
+.shang{
+    width: 396.5px;
+    size:1;
+    margin: 0px;
+}
+.BT{
+    height: 0px;
+}

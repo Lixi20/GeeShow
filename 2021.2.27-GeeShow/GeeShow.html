@@ -10,11 +10,16 @@
 
 <body>
     <div>
-        <span class="GWS">GeeShow</span>
+        <span class="GS">GeeShow</span>
     </div>
 
     <div class="wrap">
         <div class="says">
+            <form action="http://192.168.2.38:8080/update" method="POST">
+                <input class="picture" type="file" name="file" id="file" accept="image/*" onchange="imgChange(this);">
+                <img id="imghead" src="" />
+                <button type="submit" class="bu" type="button">发布</button>
+            </form>
             <h1>来，说说你在做什么，想什么...</h1>
             <textarea id="first" onkeyup="SwapTxt()" placeholder="请输入正文"></textarea>
         </div>
